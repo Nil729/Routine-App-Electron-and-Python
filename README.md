@@ -1,2 +1,0 @@
-# Routine-App-Electron-and-Python
-This project consists of an application in which you will be able to tell what time your application or website will run and what time it will end. So to be able to build different routines, for example if you want the work routine you could say to execute the Email and the notepad from 7:00 - 7:30 after the VScoude is executed from 7: 20- 13:00 ... Following the same process will create different routines and make them run automatically
