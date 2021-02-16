@@ -1,0 +1,38 @@
+{
+  "name": "electornjs-python",
+  "version": "1.0.0",
+  "description": "The organization app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "electron-builder"
+  },
+  "author": "Nil Piñana Rodés",
+  "license": "ISC",
+
+  "build": {
+    "extraResources": ["./extraResources/**"],
+    "appId": "com.demo.quickstart",
+    "productName" : "Electron Test App",
+    "asar": true,
+    "electronVersion": "4.2.8",
+
+    "win": {
+      "target": "NSIS",
+      "icon": "build/build.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^11.0.4",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    
+    "html-shell": "^1.0.0",
+    "node-sass": "^5.0.0",
+    "python-shell": "^2.0.3",
+    "sqlite3": "^5.0.1"
+  }
+}

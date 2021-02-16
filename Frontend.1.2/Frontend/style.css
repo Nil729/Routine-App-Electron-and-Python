@@ -1,0 +1,100 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height:100%;
+}
+.body {
+    font-family: arial;
+    background-size: "1080x1920";
+    background:  linear-gradient(25deg, #118ecb, #85aca4, #b7cc77, #deee35);
+}
+
+.Titul{
+    text-align:center;
+}
+.contenedor_CrearRutina{
+    display: block; 
+    float: left;
+    margin:30px 60px;
+    background-color:rgba(5, 33, 66, 0.897);
+    border-radius: 10px;
+    padding: 20px;
+}
+.Titul_CrearRutina{
+    font-size:20px;
+    text-align:center;
+    color: white;
+}
+.CrearRutina{
+    border-style: none;
+    margin: 10px
+}
+.ButtonCrearRutina{
+    border-style: none;
+    display:block;
+    width: 100px;
+    border-style: solid rgb(71, 1, 1);
+    border-width: 1px;
+    border-radius: 15px;
+    background:rgba(184, 164, 233, 0.979);
+    transition: all 300ms;
+    font-size: 15px;
+    outline: none;
+    padding:1px;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+.ButtonCrearRutina:hover{
+    background: rgb(191, 171, 236);
+    transition: all 300ms;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgb(100, 184, 170);
+}
+.ButtonCrearRutina:active{
+    color:rgb(209, 192, 219);
+    transition: all 300ms;
+    transform: scale(0.8);
+}
+.contenedor_InsertarEnRutina{
+    display: block;
+    float: left;
+    border-radius: 10px;
+    background-color: #cca777ce;
+    padding: 20px;
+    margin:10px 60px;
+    margin-right: 25%;
+}
+
+.Contenedor_Rutinas{
+    float: top;
+    display: block;
+    background-color: rgba(177, 218, 245, 0.89);
+    border-radius: 10px;
+    min-width: 10cm;
+    min-height: 80%;
+    margin: 40px;
+    margin-left: 50%;
+}
+.TitulRutina{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(1, 252, 210, 0.897);
+    border-radius: 10px 10px 0px 0px;
+}
+.ContenedorMy_Rutina{
+    display: block;
+    float: center;
+    border-radius: 15px;
+    background-color: darkslateblue;
+    margin: 1.5%;
+    min-height: 60px;
+    padding: 10px;
+}
+.Titul_MyRutina{
+    text-align: left ;
+}
