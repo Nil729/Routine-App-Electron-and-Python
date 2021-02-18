@@ -23,7 +23,7 @@ function start(){
 
   if (JSON.stringify(nw1) === JSON.stringify(t2)){
     console.log("Es web");
-    let Open_Web = path.join(__dirname, '\extraResources\Open_Web.py')
+    let Open_Web = path.join(__dirname, '/extraResources/Open_Web.py')
 
     PythonShell.run(Open_Web, options, function (err, results) { 
       if (err) throw err;
@@ -33,7 +33,7 @@ function start(){
     });
   }else{ 
     console.log("Es dir");
-    let Open_App = path.join(__dirname, '\extraResources\Open_App.py')
+    let Open_App = path.join(__dirname, '/extraResources/Open_App.py')
 
     PythonShell.run(Open_App.py, options, function (err, results) {
       if (err) throw err;
@@ -51,7 +51,7 @@ function start(){
 function InsertTable(){
 
   const path = require('path');
-  let BaseDeDatos = path.join(__dirname, '\extraResources\BaseDeDatos.py')
+  let BaseDeDatos = path.join(__dirname, '/extraResources/BaseDeDatos.py')
 
   const {PythonShell} = require('python-shell');
   var NombreTabla = document.getElementById("CrearTaula").value;
@@ -72,7 +72,7 @@ function InsertTable(){
 
 function InsertRowDB(){
   const path = require('path');
-  let InsertRow = path.join(__dirname, '\extraResources\InsertRow.py')
+  let InsertRow = path.join(__dirname, '/extraResources/InsertRow.py')
 
   var AppDir = document.getElementById("AppDir").value;
   var sec = document.getElementById("sec").value;
@@ -98,7 +98,7 @@ function InsertRowDB(){
 function RunRutina(){
 
   const path = require('path');
-  let Select_DB = path.join(__dirname, '\extraResources\Select_DB.py')
+  let Select_DB = path.join(__dirname, '/extraResources/Select_DB.py')
 
   const {PythonShell} = require('python-shell');
   var NombreTabla = document.getElementById("CrearTaula").value;
