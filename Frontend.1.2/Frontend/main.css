@@ -1,0 +1,12 @@
+
+
+h1#MainTitle{
+    font-family: arial, helvetica; 
+    color: rgba(84, 143, 120, 0.774);
+    margin-right: 50%;
+}
+
+.RASinput{
+    font-family:arial, helvetica;
+    text-indent: 15px ;
+}
