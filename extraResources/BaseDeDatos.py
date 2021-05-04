@@ -43,12 +43,3 @@ def sql_table(con,nomTaula,cursorObj):
     con.commit()
 sql_table(con, nomTaula,cursorObj)
 
-#-----------------------------------------------Inserta los valores a la tabla-------------------------------------------.
-
-
-
-
-#fer qeu nomes s'executi un cop la conexio
-#un boto perque es pugui crear una Rotina=  "una nova taula".
-#Un boto perque puguis insertar una nova Aplicacio == una fila dins la taula. Ex: id 1, Adresa C:\app\user...
-#Un call o boto desde jvascript que envi un arguments i a quets arguments els envi a python i facin que activi la funcio de python.
